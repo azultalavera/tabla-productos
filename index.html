@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras con descuentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container left">
+            
+            <div id="productoNuevo">
+                <h2>Agregar productos</h2>
+                <input type="text" name="producto" id="producto">
+                <input type="number" name="precio" id="precio">
+                <input type="number" name="cantidad" id="cantidad">
+
+                <button id="push">Agregar</button>
+
+            </div>
+        </div>
+
+        <div class="container right">
+            <div>
+                <table class="table_component table">
+                    <thead class="table_component th">
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaProductos">
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+
+
+
+
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
